@@ -1,7 +1,7 @@
 {
-    "name": "codeconsortium/ccdn-user-security-bundle",
-    "description": "CCDN User Security Bundle",
-    "keywords": ["ccdn", "codeconsortium", "user", "security", "brute force", "dictionary attack", "login"],
+    "name": "rmzamora/ccdn-user-security-bundle",
+    "description": "Forked version of CCDN User Security Bundle",
+    "keywords": ["ccdn", "codeconsortium", "user", "security", "brute force", "dictionary attack", "login", "Forked", "Rz Project"],
     "homepage": "http://github.com/codeconsortium/CCDNUserSecurityBundle",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "2.5.*",
+        "symfony/symfony": "~2.5",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2"
     },
@@ -35,7 +35,6 @@
         "friendsofsymfony/user-bundle": "~2.0@dev"
     },
     "autoload": {
-        "psr-0": { "CCDNUser\\SecurityBundle": "" }
-    },
-    "target-dir": "CCDNUser/SecurityBundle"
+        "psr-4": { "CCDNUser\\SecurityBundle\\": "" }
+    }
 }
