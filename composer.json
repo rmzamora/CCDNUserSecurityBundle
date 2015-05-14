@@ -36,5 +36,10 @@
     },
     "autoload": {
         "psr-4": { "CCDNUser\\SecurityBundle\\": "" }
+    },
+    "extra": {
+      "branch-alias": {
+        "dev-1.0": "1.0.x-dev"
+      }
     }
 }
