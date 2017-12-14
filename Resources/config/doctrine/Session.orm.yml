@@ -16,3 +16,6 @@ CCDNUser\SecurityBundle\Entity\Session:
         loginAttemptUsername:
             type: text
             column: login_attempt_username
+    indexes: 
+        cc_security_idx: 
+            columns: [ ip_address ]
